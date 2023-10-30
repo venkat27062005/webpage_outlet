@@ -1,0 +1,54 @@
+body{
+    display:flex;
+    height: 130vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./pexels-pixabay-531880.jpg);
+    background-size: cover;
+   
+}
+.login-container{
+    
+    max-width: 350px;
+    width: 65%;
+    height: 65%;
+    background-color: rgb(178, 211, 240);
+    border-radius: 3px;
+}
+.title{
+    color: red;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+.description{
+    margin-top: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.595) ;
+}
+.description-1{
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.595) ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    margin-left:25px ;
+    margin-bottom: 1.3rem ;
+}
+.user-informations.input-box input{
+    width: 18rem;
+    height: 2.6rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.244);
+    border-radius: 3px;
+    padding: 10px;
+}
+.button{
+    position: relative;
+    top:-0.5rem;
+    left:13rem;
+    border:0.5px ;
+    font-weight: bold;
+    background-color: rgba(250, 250, 251, 0.996);
+    cursor:default;
+}
+
